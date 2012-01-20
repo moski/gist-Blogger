@@ -1,7 +1,7 @@
 (function () {
   
   // Turn on/off the logging syste,
-  var LOG = true 
+  var LOG = false 
 
   // a list of scripts to load
   var scripts = []; 
