@@ -52,7 +52,7 @@
   // load the next "script" and invoke callback when done
   function loadScript(currentScript, yieldDone){
     var id   = currentScript.data('id');
-    var file   = currentScript.data('file');
+    var file   = 'gistfile2.cs'//currentScript.data('file');
     var path = generatePath(id, file)
     LOG && console.log("loadScript() id =" + id + "  path=" + path);
 
