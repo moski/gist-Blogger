@@ -41,6 +41,7 @@
 
 // Given the gist ID, generate the JS path.
   function generatePath(id, file){
+    console.log('file is ' + file);
     if ( file == null || file == undefined ) {
       return "https://gist.github.com/" + id + ".js"
     }
