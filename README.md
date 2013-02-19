@@ -12,6 +12,13 @@ Now to include any gist template just add the following anywhere in your blog po
 
 Replace "GistID" with your gist id.
 
+Optionally, you can specify a file to be loaded if your gist contains multiple files using the data-file attribute, like this:
+
+	<div class="gistLoad" data-id="GistID" data-file="YourFileName.extension" id="gist-GistID">Loading ....</div><br />
+
+Example:
+
+	<div class="gistLoad" data-id="4982341" data-file="gistfile2.cs" id="gist-4982341">Loading ....</div><br />
 
 
 ## Development
